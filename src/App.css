@@ -1,0 +1,144 @@
+.Nav{
+    width: 95%;
+    height: 75px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+i{
+    font-size: 1em;
+}
+
+.Nav-leftEnd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.Nav-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    width: 40%;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid lightgray;
+    gap: 0em;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.Nav-center input{
+    width: 100%;
+    padding: 0.75em;
+    border: none;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.Nav-center .fa-magnifying-glass{
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    padding: 0.75em;
+    border-left: 1px solid lightgray;
+    border-radius: 0 50px 50px 0;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.Microphone{
+    height: 40px;
+    width: 45px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+}
+
+.Microphone .fa-microphone{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Nav-rightEnd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5em;
+}
+
+.Nav-rightEnd span{
+    /* border: 1px solid black; */
+    background-color: rgb(247, 247, 247);
+    padding: 0.5em;
+    display: flex;
+    gap: 0.5em;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.Nav-rightEnd .Account{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+
+.main{
+    width: 85%;
+    margin: 0 auto;
+}
+
+article{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+article .mainplayer{
+    border-radius: 50px 50px 50px 50px;
+}
+
+.videocuurentlyrunning{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.videocuurentlyrunning video{
+    border-radius: 8px 8px 8px 8px;
+    height: 70vh;
+}
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+.videolists{
+    background-color: rgb(247, 247, 247);
+    border-radius: 8px 8px 8px 8px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.video-list{
+    display: flex;
+    gap: 1em;
+}
+
+.info-div{
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25em;
+}
